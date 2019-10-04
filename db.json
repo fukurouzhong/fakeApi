@@ -1,24 +1,20 @@
-{
-  opGroups: [
-      {
-        sv: 1,
-        op: 2,
-        name: '関根OPグループ',
-        id: '5649391675244500',
-        members: [
-          { id: "admin01", name: "admin01", role: 1 },
-          { id: "admin02", name: "admin02", role: 0 }
-        ]
-      },
-      {
-        sv: 2,
-        op: 1,
-        name: 'テストグループ',
-        id: '1564939167524450',
-        members: [
-          { id: "test01", name: "test01", role: 1 },
-          { id: "test02", name: "test02", role: 0 }
-        ]
-      }
-    ],
-}
+{ "opGroups" : [ { "sv"      : 1,
+                   "op"      : 2,
+                   "name"    : "関根OPグループ",
+                   "id"      : "5649391675244500",
+                   "members" : [ { "id"   : "admin01",
+                                   "name" : "admin01",
+                                   "role" : 1 },
+                                 { "id"   : "admin02",
+                                   "name" : "admin02",
+                                   "role" : 0 } ] },
+                 { "sv"      : 2,
+                   "op"      : 1,
+                   "name"    : "テストグループ",
+                   "id"      : "1564939167524450",
+                   "members" : [ { "id"   : "test01",
+                                   "name" : "test01",
+                                   "role" : 1 },
+                                 { "id"   : "test02",
+                                   "name" : "test02",
+                                   "role" : 0 } ] } ] }
